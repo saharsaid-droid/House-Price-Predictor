@@ -1,10 +1,9 @@
 import streamlit as st
-import joblib
+
 import json
 import numpy as np
 import pandas as pd
 from pathlib import Path
-from sklearn.compose import ColumnTransformer
 
 st.set_page_config(
     page_title="House Price Predictor 🏠",
